@@ -1,9 +1,9 @@
 @echo off
 
-call %~dp0venv\Scripts\activate
+call %~d0venv\Scripts\activate
 
 cd %~dp0
 
-python liana_bot.python
+python create_bot.py
 
 pause
